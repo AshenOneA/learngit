@@ -9,17 +9,20 @@
 <link href="" rel="stylesheet">
 </head>
 <body>
-   mkdir learngit
-   cd learngit
-   pwd
-   git init
-   git add  
-   git commit -m "描述"
-   git status
-   git diff git1.html
-   git add git1.html
-   git commit -m "描述2"
+   mkdir learngit              ----创建文件夹
+   cd learngit                 ----进入文件夹
+   pwd                         ----查看文件夹状态
+   git init                    ----创建库
+   git add git1.html           ----添加文件进库
+   git add git1.html git2.html ----添加2个文件进库
+   git add .                   ----添加所有文件进库
+   git commit -m "描述"        ----描述添加文件
+   git status                  ----查看状态
+   git diff git1.html          ----查看不同
+   git log                     ----查看历史记录
+   git log --pretty=oneline
    
+
    
 </body>
 </html>
