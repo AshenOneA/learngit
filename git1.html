@@ -27,8 +27,11 @@
    git reflog                  ----查看用过的命令
                                ----stage master
    git checkout -- git1.html   ----返回上一次add或者commit状态
-    
-    
+   git reset HEAD git1.html    ----将文件从暂存区取出
+   git checkout -- file        ----从版本库回复文件
+   git rm file                 ----从版本库删除文件
+   git commit -m "描述"        ----提交删除文件    
+   git push origin master      ----文件提交到远程版本库
 
    
 </body>
