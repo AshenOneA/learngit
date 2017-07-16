@@ -44,10 +44,18 @@
    git stash                   ----存储工作
    git stash list              ----查看存储工作列表
    git stash apply             ----取回某个工作
-   git stash drop              ----删除存储区的某个工作
+   git stash drop              ----删除存储区的所有工作
    git stash pop               ----取回并删除存储区的某个工作
-
-
-   
+   git remote                  ----查看远程信息
+   git remote -v               ----查看详细远程信息
+   git push origin name        ----将某条分支上次到远程库
+   git tag name                ----创建标签
+   git tag                     ----查看标签列表
+   git tag name commit_id      ----为某个版本创建标签
+   git tag -a name -m "描述" commit_id ----为标签添加描述
+   git tag -d name             ----删除某个标签
+   git push origin --tag       ----上传所有标签
+   git push origin name        ----上传某个标签
+   git push origin :refs/tags/name  ----删除某个远程标签
 </body>
 </html>
